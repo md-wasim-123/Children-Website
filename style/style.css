@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Dots&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ 
+/*===========navbar===============*/
+ 
+.logo-box {
+  padding: 0.2rem;
+  padding-left: 3rem;
+  width: 6rem;
+  height: 3.5rem;
+  margin-left: 0;
+  border-radius: 0 40% 40% 0;
+}
+#logo {
+  width: 4rem;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.navbar-link {
+  flex:end;
+  font-weight: 500;
+  font-family: "Nerko One", cursive;
+  margin-right: 1rem;
+}
+#link1:hover{
+  background-color:rgb(20, 220, 255);
+   border-radius: 10%;
+ 
+}
+#link2:hover{
+  background-color:rgb(20, 220, 255);
+  border-radius: 10%;
+}
+#link3:hover{
+  background-color:hsl(189, 100%, 54%);
+  border-radius: 10%;
+}
+ 
+/*===========navbar closed===============*/
+
+/* ==================
+section
+========================*/
+
+#sectio {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  height:480px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  align-content: flex-end;
+}
+
+#video {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#ad-contain {
+  position: absolute;
+  left: 2rem;
+  top: 6rem;
+}
+.head-text {
+  font-size: 4rem;
+  margin-left: 1rem;
+  background-color: white;
+  padding: 2rem;
+  mix-blend-mode: screen;
+  border-radius: 1rem;
+}
+
+.head-text {
+  display: inline-block;
+}
+
+.head-text h1 {
+  font-family: "Nerko One", cursive;
+  font-size: 1rem;
+}
+.head-text:hover {
+  border-radius: 10px;
+  box-shadow: 3px 4px 20px rgb(20, 220, 255);
+}
+ 
+.herro-btn {
+  background-color:rgb(20, 220, 255);
+  width: 8.5em;
+  height: 3.5em;
+  margin-left: 2%;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 2600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.herro-btn:hover {
+  background-color: transparent;
+  border: 3px solid rgb(20, 220, 255);
+}
+#lorem {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: 'La Belle Aurore', cursive;
+}
+/* ==================
+       section closed
+========================*/
+
+/* ==================
+        card box
+========================*/
+ 
+.card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  border-radius: 10%;
+  background-color: rgb(20, 220, 255);
+}
+
+.box-img1 {
+  background-image: url("/Assets/image/AtoZ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+.ALPHA-H2 {
+  font-family: "Nerko One", cursive;
+}
+.alpha{
+  color: rgb(8, 32, 36);
+}
+.alpha:hover{
+  color: #000000;
+  text-decoration: none;
+  font-family: "Nerko One", cursive;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.box-img2 {
+  background-image: url("/Assets/image/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ==================
+       card box closed
+========================*/
+
+/* ==================
+       
+footer
+========================*/
+
+.svg {
+  position: relative;
+  width: 100%;
+}
+.footer-icon {
+  width: 100%;
+  position: absolute;
+  top: 3rem;
+  left: -3%;
+  cursor: pointer;
+}
+
+.f-iocn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.f-iocn i {
+  margin-bottom: 0;
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+/* ==================
+       footer closed
+========================*/
+
+/* ==================
+       media screen 
+========================*/
+
+ 
+
+
+@media screen and (max-width: 3496px) {
+  .head-text h1 {
+    font-size: 30rem;
+  }
+}
+
+@media screen and (max-width: 1496px) {
+  .head-text h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1407px) {
+  .head-text h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 3625px) {
+  .head-text h1 {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 1368px) {
+  .head-text h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1304px) {
+  .head-text h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1397px) {
+  .head-text h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .head-text h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 973px) {
+  #ad-contain {
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+  }
+
+  .head-text h1 {
+    font-size: 2rem;
+  }
+
+  #lorem {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .head-text {
+    font-size: 0.1rem;
+    margin-left: 0rem;
+    margin-top: 3.9rem;
+    background-color: white;
+    padding: 1rem;
+    mix-blend-mode: screen;
+    border-radius: 1rem;
+  }
+  
+  .head-text h1 {
+    font-size: 1.5rem;
+  }
+  #lorem {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer-icon {
+    position: absolute;
+    top: 1.9rem;
+    left: -3%;
+  }
+  .f-iocn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .f-iocn i {
+    margin-bottom: 0;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+  }
+}
