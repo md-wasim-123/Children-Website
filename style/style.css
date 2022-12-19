@@ -145,7 +145,7 @@ section
 }
 
 .box-img1 {
-  background-image: url("Assets/image/AtoZ.jpg");
+  background-image: url('Assets/image/AtoZ.jpg');
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -168,7 +168,7 @@ section
 }
 
 .box-img2 {
-  background-image: url("Assets/image/3.jpg");
+  background-image: url('Assets/image/3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
